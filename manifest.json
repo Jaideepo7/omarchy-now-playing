@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jaideepo7.now-playing",
+  "name": "Now Playing",
+  "version": "1.0.0",
+  "author": "Jaideepo7",
+  "license": "MIT",
+  "description": "Album art and a live audio waveform in the bar. Click the cover to jump to the player's window and tab; click or hover the waveform for previous, play/pause and next.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Now Playing",
+    "description": "Album art, live waveform and media controls for any MPRIS player.",
+    "category": "Media",
+    "allowMultiple": false
+  },
+  "repository": "https://github.com/Jaideepo7/omarchy-now-playing"
+}
